@@ -21,7 +21,8 @@ const categories: { title: string; skills: Skill[] }[] = [
       { name: "Node.js / Express", level: 88 },
       { name: "Python / Django", level: 80 },
       { name: "PostgreSQL", level: 85 },
-      { name: "REST / GraphQL", level: 82 },
+      { name: "Java API", level: 82 },
+      { name: "MySQL", level: 84 },
     ],
   },
   {
