@@ -3,8 +3,8 @@ import avatarImg from "@/assets/developer-avatar.jpg";
 
 const roles = [
   "Desenvolvedor Full Stack",
-  "Engenheiro de Software",
-  "Especialista React & Node",
+  "Banco de Dados",
+  "Suporte Técnico",
 ];
 
 const stack = ["React", "TypeScript", "Node.js", "Python", "PostgreSQL", "Java", "MySQL", "AWS"];
