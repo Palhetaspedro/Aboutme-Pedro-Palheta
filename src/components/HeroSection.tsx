@@ -7,7 +7,7 @@ const roles = [
   "Especialista React & Node",
 ];
 
-const stack = ["React", "TypeScript", "Node.js", "Python", "PostgreSQL", "AWS"];
+const stack = ["React", "TypeScript", "Node.js", "Python", "PostgreSQL", "Java", "MySQL", "AWS"];
 
 const HeroSection = () => {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -86,7 +86,7 @@ const HeroSection = () => {
             <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-red-accent/30 shadow-2xl">
               <img
                 src={avatarImg}
-                alt="João Silva - Desenvolvedor"
+                alt="Pedro Palheta - Desenvolvedor"
                 width={512}
                 height={512}
                 className="w-full h-full object-cover"
