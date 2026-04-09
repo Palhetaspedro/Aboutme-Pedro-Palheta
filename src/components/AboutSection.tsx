@@ -27,9 +27,9 @@ const AboutSection = () => {
           }`}
           style={{ animationDelay: "0.1s" }}
         >
-          Desenvolvedor Full Stack com mais de 5 anos de experiência construindo aplicações web escaláveis.
-          Formado em Ciência da Computação, apaixonado por resolver problemas complexos com soluções elegantes.
-          Já atuei em startups e empresas de grande porte, sempre buscando impacto real através da tecnologia.
+          Formado em Curso Técnico de Informática, atuando como Analista e Desenvolvimento de Sistemas.
+          Sou um programador junior apaixonado por tecnologia, em busca da minha primeira oportunidade profissional
+          para colocar em prática tudo o que aprendi e continuar evoluindo na área.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
