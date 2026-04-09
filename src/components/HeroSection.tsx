@@ -43,7 +43,7 @@ const HeroSection = () => {
           <div className="flex-1 text-center md:text-left">
             <p className="text-muted-on-dark text-sm uppercase tracking-widest mb-3">Olá, eu sou</p>
             <h1 className="text-4xl md:text-6xl font-semibold text-foreground mb-4 leading-tight">
-              João Silva
+              Pedro Palheta
             </h1>
             <div className="h-10 mb-6">
               <span className="text-xl md:text-2xl text-red-accent font-medium">
