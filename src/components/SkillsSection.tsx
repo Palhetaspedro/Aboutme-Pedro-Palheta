@@ -18,7 +18,11 @@ const categories: { title: string; skills: Skill[] }[] = [
   {
     title: "Back-end",
     skills: [
+      { name: "Java Spring Boot", level: 85 },
       { name: "Java API", level: 82 },
+      { name: "PHP", level: 80 },
+      { name: "JavaScript", level: 88 },
+      { name: "MongoDB", level: 78 },
       { name: "MySQL", level: 84 },
     ],
   },
