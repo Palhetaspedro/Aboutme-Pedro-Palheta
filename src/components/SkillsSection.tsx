@@ -18,9 +18,6 @@ const categories: { title: string; skills: Skill[] }[] = [
   {
     title: "Back-end",
     skills: [
-      { name: "Node.js / Express", level: 88 },
-      { name: "Python / Django", level: 80 },
-      { name: "PostgreSQL", level: 85 },
       { name: "Java API", level: 82 },
       { name: "MySQL", level: 84 },
     ],
