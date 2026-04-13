@@ -1,9 +1,12 @@
 # Hi, I'm Pedro 👋
 
-💻 Front-end Developer in progress  
-🚀 Focused on React and JavaScript  
-🛠️ Background in IT Support  
-🗄️ Knowledge of MySQL databases  
+💻 Front-end Developer in progress
+🖥️ Back-end Developer in progress
+
+🚀 Focused on React, JavaScript, APIs and PHP
+🛠️ Background in IT Support
+🗄️ Experience with MySQL databases
+
 
 ## 📌 Projects
 - Task Manager App (React)
