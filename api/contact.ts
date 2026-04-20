@@ -9,7 +9,7 @@ const contactSchema = z.object({
   _honey: z.string().max(0).optional(),
 });
 
-// Rate limit simples (em memória)
+// Rate limit simples (em memória)git 
 const RATE_LIMIT_WINDOW = 15 * 60 * 1000;
 const RATE_LIMIT_MAX = 3;
 

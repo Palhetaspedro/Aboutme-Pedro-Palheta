@@ -3,18 +3,18 @@ import { useInView } from "@/hooks/useInView";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Plataforma completa de e-commerce com carrinho, pagamentos via Stripe e painel admin.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    github: "#",
-    demo: "#",
+    title: "WeatherDash",
+    description: "Dashboard de previsão do tempo com gráficos interativos, dados em tempo real e integração com API de clima.",
+    tech: ["React", "Node.js", "Weather API"],
+    github: "https://github.com/Palhetaspedro/WeatherSystemAPI",
+    demo: "https://weather-system-api.vercel.app/",
   },
   {
-    title: "Task Manager API",
-    description: "API RESTful para gerenciamento de tarefas com autenticação JWT e documentação Swagger.",
-    tech: ["Node.js", "Express", "MongoDB", "JWT"],
-    github: "#",
-    demo: "#",
+    title: "DashboardPalhetta",
+    description: "Dashboard para gerenciamento de fluxo comercial com autenticação JWT e documentação Swagger.",
+    tech: ["Node.js", "React", "Supabase/PostgreSQL", "JWT"],
+    github: "https://github.com/Palhetaspedro/DashboardPalhetta",
+    demo: "https://dashboardpalhetta.vercel.app/",
   },
   {
     title: "Dashboard Analytics",
@@ -24,11 +24,11 @@ const projects = [
     demo: "#",
   },
   {
-    title: "Chat App Real-time",
-    description: "Aplicação de chat em tempo real com salas, notificações push e compartilhamento de arquivos.",
-    tech: ["React", "Socket.io", "Node.js", "Redis"],
-    github: "#",
-    demo: "#",
+    title: "Palheta Barbearia",
+    description: "Sistema de agendamento para uma barbearia, com interface intuitiva,API Javaspring e autenticação JWT.",
+    tech: ["React", "JavaSpringBoot", "Node.js", "Java","PostgreSQL/Supabase"],
+    github: "https://github.com/Palhetaspedro/BarbeariaAgendamento",
+    demo: "https://barbearia-agendamento-seven.vercel.app/",
   },
 ];
 

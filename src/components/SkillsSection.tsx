@@ -9,21 +9,21 @@ const categories: { title: string; skills: Skill[] }[] = [
   {
     title: "Front-end",
     skills: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "Tailwind CSS", level: 92 },
+      { name: "React / Next.js", level: 88 },
+      { name: "TypeScript", level: 88 },
+      { name: "Tailwind CSS", level: 81 },
       { name: "HTML / CSS", level: 95 },
     ],
   },
   {
     title: "Back-end",
     skills: [
-      { name: "Java Spring Boot", level: 85 },
-      { name: "Java API", level: 82 },
-      { name: "PHP", level: 80 },
-      { name: "JavaScript", level: 88 },
-      { name: "MongoDB", level: 78 },
-      { name: "MySQL", level: 84 },
+      { name: "Java Spring Boot", level: 92 },
+      { name: "Java API", level: 85 },
+      { name: "PHP", level: 75 },
+      { name: "JavaScript", level: 80 },
+      { name: "MongoDB", level: 84 },
+      { name: "MySQL", level: 90 },
     ],
   },
   {
@@ -31,7 +31,7 @@ const categories: { title: string; skills: Skill[] }[] = [
     skills: [
       { name: "Git / GitHub", level: 93 },
       { name: "Docker", level: 78 },
-      { name: "AWS / Cloud", level: 75 },
+      { name: "AWS / Cloud", level: 84 },
       { name: "CI/CD", level: 80 },
     ],
   },
