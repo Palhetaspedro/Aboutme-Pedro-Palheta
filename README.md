@@ -12,6 +12,8 @@
 - Task Manager App (React)
 - Login System
 - Portfolio Website
+- Barber System
+- Dashboard System
 
 - ##API in cloud:https://aboutme-pedro-palheta.vercel.app/
 
