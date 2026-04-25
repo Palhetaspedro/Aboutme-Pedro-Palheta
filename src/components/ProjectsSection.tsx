@@ -17,11 +17,11 @@ const projects = [
     demo: "https://dashboardpalhetta.vercel.app/",
   },
   {
-    title: "Dashboard Analytics",
-    description: "Dashboard interativo com gráficos em tempo real, filtros avançados e exportação de relatórios.",
-    tech: ["React", "TypeScript", "D3.js", "Firebase"],
-    github: "#",
-    demo: "#",
+    title: "Auto-Ultimate",
+    description: "Sistema de aluguel completo, incluindo cadastro de veículos, carrinho, simulação de pagamentos e painel administrativo.Autenticação JWT e Docker para fácil implantação.",
+    tech: ["React", "TypeScript", "Node.js", "Appwrite","Docker","Northflank","Javascript"],
+    github: "https://github.com/Palhetaspedro/AUTO-PALHETA/tree/minha-feature",
+    demo: "https://auto-palheta.vercel.app/",
   },
   {
     title: "Palheta Barbearia",

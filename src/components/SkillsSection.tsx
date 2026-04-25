@@ -1,52 +1,53 @@
-import { useInView } from "@/hooks/useInView";
+import { FaReact, FaHtml5, FaCss3Alt, FaPhp, FaDocker, FaAws, FaGitAlt, FaJava } from 'react-icons/fa';
+import { SiTypescript, SiTailwindcss, SiNextdotjs, SiSpring, SiJavascript, SiMongodb, SiMysql, SiGithub } from 'react-icons/si';
+import { VscCircuitBoard } from 'react-icons/vsc';
+import { useInView } from '@/hooks/useInView';
 
 interface Skill {
   name: string;
-  level: number;
+  icon: React.ReactNode;
 }
 
 const categories: { title: string; skills: Skill[] }[] = [
   {
     title: "Front-end",
     skills: [
-      { name: "React / Next.js", level: 88 },
-      { name: "TypeScript", level: 88 },
-      { name: "Tailwind CSS", level: 81 },
-      { name: "HTML / CSS", level: 95 },
+      { name: "React / Next.js", icon: <FaReact className="text-cyan-400" /> },
+      { name: "TypeScript", icon: <SiTypescript className="text-blue-500" /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
+      { name: "HTML / CSS", icon: <FaHtml5 className="text-orange-500" /> },
     ],
   },
   {
     title: "Back-end",
     skills: [
-      { name: "Java Spring Boot", level: 92 },
-      { name: "Java API", level: 85 },
-      { name: "PHP", level: 75 },
-      { name: "JavaScript", level: 80 },
-      { name: "MongoDB", level: 84 },
-      { name: "MySQL", level: 90 },
+      { name: "Java Spring Boot", icon: <SiSpring className="text-green-500" /> },
+      { name: "Java API", icon: <FaJava className="text-red-500" /> },
+      { name: "PHP", icon: <FaPhp className="text-indigo-400" /> },
+      { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
+      { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
+      { name: "MySQL", icon: <SiMysql className="text-blue-400" /> },
     ],
   },
   {
     title: "DevOps & Ferramentas",
     skills: [
-      { name: "Git / GitHub", level: 93 },
-      { name: "Docker", level: 78 },
-      { name: "AWS / Cloud", level: 84 },
-      { name: "CI/CD", level: 80 },
+      { name: "Git / GitHub", icon: <FaGitAlt className="text-orange-500" /> },
+      { name: "Docker", icon: <FaDocker className="text-blue-400" /> },
+      { name: "AWS / Cloud", icon: <FaAws className="text-yellow-500" /> },
+      { name: "CI/CD", icon: <VscCircuitBoard className="text-purple-400" /> },
     ],
   },
 ];
 
 const SkillsSection = () => {
   const { ref, isInView } = useInView();
-
   return (
     <section id="habilidades" className="section-dark py-20 md:py-28">
       <div className="container mx-auto px-4" ref={ref}>
         <h2
-          className={`text-3xl md:text-4xl font-semibold text-center mb-4 text-foreground ${
-            isInView ? "animate-fade-up" : "opacity-0"
-          }`}
+          className={`text-3xl md:text-4xl font-semibold text-center mb-4 text-foreground ${isInView ? "animate-fade-up" : "opacity-0"
+            }`}
         >
           Habilidades
         </h2>
@@ -77,19 +78,11 @@ const SkillsSection = () => {
   );
 };
 
-function SkillBar({ skill, visible, delay }: { skill: Skill; visible: boolean; delay: number }) {
+function SkillBar({ skill }: { skill: Skill; visible: boolean; delay: number }) {
   return (
-    <div>
-      <div className="flex justify-between mb-1">
-        <span className="text-sm text-foreground">{skill.name}</span>
-        <span className="text-xs text-muted-on-dark">{skill.level}%</span>
-      </div>
-      <div className="h-2 rounded-full bg-muted/20 overflow-hidden">
-        <div
-          className={`h-full rounded-full bg-red-accent ${visible ? "animate-skill-bar" : "scale-x-0"}`}
-          style={{ width: `${skill.level}%`, animationDelay: `${delay}s` }}
-        />
-      </div>
+    <div className="flex items-center gap-2">
+      <span className="text-xl">{skill.icon}</span>
+      <span className="text-sm text-foreground">{skill.name}</span>
     </div>
   );
 }

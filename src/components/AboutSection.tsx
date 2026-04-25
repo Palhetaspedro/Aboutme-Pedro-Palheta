@@ -27,9 +27,7 @@ const AboutSection = () => {
           }`}
           style={{ animationDelay: "0.1s" }}
         >
-          Formado em Curso Técnico de Informática, atuando como Analista e Desenvolvimento de Sistemas.
-          Sou um programador junior apaixonado por tecnologia, em busca da minha primeira oportunidade profissional
-          para colocar em prática tudo o que aprendi e continuar evoluindo na área.
+          Desenvolvedor de Software com formação técnica em Informática, focado em resolver problemas e criar soluções eficientes. Possuo experiência prática em desenvolvimento de sistemas e sou movido por tecnologia, sempre buscando evoluir e aprimorar minhas habilidades.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
