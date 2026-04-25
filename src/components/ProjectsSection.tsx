@@ -19,14 +19,14 @@ const projects = [
   {
     title: "Auto-Ultimate",
     description: "Sistema de aluguel completo, incluindo cadastro de veículos, carrinho, simulação de pagamentos e painel administrativo.Autenticação JWT e Docker para fácil implantação.",
-    tech: ["React", "TypeScript", "Node.js", "Appwrite","Docker","Northflank","Javascript"],
+    tech: ["React", "TypeScript", "Node.js", "Appwrite","Docker","Northflank","Javascript", "JWT"],
     github: "https://github.com/Palhetaspedro/AUTO-PALHETA/tree/minha-feature",
     demo: "https://auto-palheta.vercel.app/",
   },
   {
     title: "Palheta Barbearia",
     description: "Sistema de agendamento para uma barbearia, com interface intuitiva,API Javaspring e autenticação JWT.",
-    tech: ["React", "JavaSpringBoot", "Node.js", "Java","PostgreSQL/Supabase"],
+    tech: ["React", "JavaSpringBoot","Java API","PostgreSQL/Supabase"],
     github: "https://github.com/Palhetaspedro/BarbeariaAgendamento",
     demo: "https://barbearia-agendamento-seven.vercel.app/",
   },
