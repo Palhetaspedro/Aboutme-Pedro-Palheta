@@ -27,6 +27,7 @@ const categories: { title: string; skills: Skill[] }[] = [
       { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
       { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
       { name: "MySQL", icon: <SiMysql className="text-blue-400" /> },
+      { name: "Node.js", icon: <SiNextdotjs className="text-green-300" /> },
     ],
   },
   {
@@ -35,7 +36,7 @@ const categories: { title: string; skills: Skill[] }[] = [
       { name: "Git / GitHub", icon: <FaGitAlt className="text-orange-500" /> },
       { name: "Docker", icon: <FaDocker className="text-blue-400" /> },
       { name: "AWS / Cloud", icon: <FaAws className="text-yellow-500" /> },
-      { name: "CI/CD", icon: <VscCircuitBoard className="text-purple-400" /> },
+      { name: "NorthFlank", icon: <SiNextdotjs className="text-cyan-500" /> },
     ],
   },
 ];
