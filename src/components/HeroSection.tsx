@@ -7,7 +7,7 @@ const roles = [
   "Suporte Técnico",
 ];
 
-const stack = ["React", "TypeScript", "Node.js","PostgreSQL", "Java Spring","Java API", "MySQL", "AWS", "Docker", "Git"];
+const stack = ["React", "TypeScript", "Node.js","PostgreSQL", "Java Spring","Java API", "MySQL", "AWS", "Docker", "Git","AI"];
 
 const HeroSection = () => {
   const [roleIndex, setRoleIndex] = useState(0);
